@@ -476,7 +476,7 @@ local my_language = {
 	shipments = "Caisses",
 	F4guns = "Armes",
 	F4entities = "Autre",
-	F4ammo = "Munition",
+	F4ammo = "Munitions",
 	F4vehicles = "Vehicules",
 
 	-- Tab 1
