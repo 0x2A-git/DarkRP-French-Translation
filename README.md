@@ -1,4 +1,4 @@
-# French-DarkRP-Translation
+# DarkRP-French-Translation
 Pour installer cette traduction :
 
 - Copiez le contenu ici -> https://github.com/Zozo832/French-DarkRP-Translation/blob/master/english.lua
