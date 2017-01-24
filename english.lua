@@ -190,7 +190,7 @@ local my_language = {
 	contents = "Contenu: ",
 	amount = "Montant: ",
 
-	picking_lock = "Corchetage",
+	picking_lock = "Crochetage",
 
 	cannot_pocket_x = "Vous ne pouvez pas mettre ça dans votre poche!",
 	object_too_heavy = "Cet objet est trop gros.",
