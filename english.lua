@@ -509,9 +509,9 @@ local my_language = {
 	give_license_lookingat = "Donner <lookingat> une licence d\'armes",
 
 	laws_of_the_land = "LOIS DE LA VILLE",
-	law_added = "Loi ajouté.",
-	law_removed = "Loi supprimé.",
-	law_reset = "Lois réinitialisés.",
+	law_added = "Loi ajoutée.",
+	law_removed = "Loi supprimée.",
+	law_reset = "Lois réinitialisées.",
 	law_too_short = "Loi trop courte.",
 	laws_full = "Plus de place pour les lois.",
 	default_law_change_denied = "Vous n\'avez pas le droit de changer les lois par défaut.",
