@@ -43,6 +43,9 @@ local my_language = {
 	npc_killpay = "%s pour avoir tué un PNJ!",
 	profit = "profits",
 	loss = "pertes",
+    Donate = "Donner",
+    you_donated = "Vous avez donné %s à %s!",
+    has_donated = "%s à donné %s!",
 
 	-- backwards compatibility
 	deducted_x = "Déduit %s%d",
@@ -122,6 +125,7 @@ local my_language = {
 	deaths = "Morts: %s",
 	rpname_changed = "%s a changé son NomRP en : %s",
 	disconnected_player = "Joueur déconnecté",
+    player = "joueur",
 
 	-- Teams
 	need_to_be_before = "Vous d\'abord être %s avant de pouvoir devenir %s",
@@ -174,12 +178,16 @@ local my_language = {
 
 	-- Entities
 	drugs = "Drogues",
+					
 	drug_lab = "Laboratoire de Drogue",
 	gun_lab = "Laboratoire d\'armes",
+						
 	gun = "arme",
 	microwave = "Micro-Onde",
 	food = "Nourriture",
+				  
 	money_printer = "Imprimante d\'argent",
+						
 
 	sign_this_letter = "Signer cette lettre",
 	signed_yours = "Cordialement,",
@@ -227,7 +235,9 @@ local my_language = {
 	checking_weapons = "Fouille des armes",
 
 	shipment_antispam_wait = "Veuillez attendre avant de faire apparaître une nouvelle caisse.",
-	shipment_cannot_split = "Impossible de séparer ces caisses.",
+	createshipment = "Créer une caisse",
+    splitshipment = "Séparer cette caisse",
+	shipment_cannot_split = "Impossible de séparer ces caisses.",			  
 
 	-- Talking
 	hear_noone = "Personne ne peut vous entendre %s!",
@@ -252,6 +262,7 @@ local my_language = {
 	talk_to_your_group = "parler à votre groupe",
 
 	channel_set_to_x = "Chaîne mise à %s!",
+	channel = "Chaîne",
 
 	-- Notifies
 	disabled = "%s a été désactivé! %s",
@@ -270,6 +281,7 @@ local my_language = {
 	cleaned_up = "Vous avez %s nettoyé la carte.",
 	you_bought_x = "Vous avez acheté %s pour %s%d.", -- backwards compatibility
 	you_bought = "Vous avez acheté %s pour %s.",
+    you_got_yourself = "Vous vous êtes acheté %s.",
 	you_received_x = "Vous avez reçu %s pour %s.",
 
 	created_first_jailpos = "Vous avez créé la première position de cellule!",
@@ -277,11 +289,13 @@ local my_language = {
 	reset_add_jailpos = "Vous avez supprimé toutes les positions de cellule et vous en avez ajouté une nouvelle ici.",
 	created_spawnpos = "Apparition de %s créé.",
 	updated_spawnpos = "Apparition de %s mis à jours.",
-	do_not_own_ent = "Vous ne possédez pas cette entité!",
+    remove_spawnpos = "Vous avez supprimé toutes les positions de spawn pour %s.",
+	do_not_own_ent = "Vous ne possédez pas cette entité!",											   
 	cannot_drop_weapon = "Impossible de jeter cette arme!",
 	job_switch = "Métier changé avec succès!",
 	job_switch_question = "Changer de métier avec %s?",
 	job_switch_requested = "Métier demandé.",
+    switch_jobs = "changer de métier",
 
 	cooks_only = "Cuisiniers seulement.",
 
@@ -307,8 +321,10 @@ local my_language = {
 	nlr = "Règles Nouvelle Vie: Pas de vengeance ( Arrestation/Meurtre ).",
 	reset_settings = "Vous avez réinitialisé tous les paramètres!",
 	must_be_x = "Vous devez être %s avant de pouvoir %s.",
+    agenda = "agenda",
 	agenda_updated = "L\'agenda a été mis à jours",
 	job_set = "%s a changé son métier en '%s'",
+    demote_vote = "demote",
 	demoted = "%s a été viré",
 	demoted_not = "%s n\'a pas été licencié",
 	demote_vote_started = "%s a commencé un vote pour licencier %s",
@@ -336,6 +352,11 @@ local my_language = {
 	admin_only = "Administrateurs seulement!", -- When doing /addjailpos
 	chief_or = "Chef ou ",-- When doing /addjailpos
 	frozen = "Gelé.",
+    recipient = "Bénéficiaire",
+    forbidden_name = "Nom interdit.",
+    illegal_characters = "Caractères interdits.",
+    too_long = "Trop long.",
+    too_short = "Trop court.",
 
 	dead_in_jail = "Vous êtes mort en étant dans votre cellule le temps est désormais écoulé!",
 	died_in_jail = "%s est mort en prison!",
@@ -388,6 +409,7 @@ local my_language = {
 	lottery_not_entered = "%s n\'est pas entré dans la lotterie",
 	lottery_noone_entered = "Personne n\'est rentré dans la lotterie",
 	lottery_won = "%s a gagné la lotterie! Il a gagné %s",
+    lottery = "lotterie",
 
 	-- Animations
 	custom_animation = "Animations Customisées!",
@@ -399,12 +421,14 @@ local my_language = {
 	nonverbal_no = "Gestuelle Non",
 	thumbs_up = "Pouce en l\'air",
 	wave = "Vague",
+    dance = "Dance",
 
 	-- Hungermod
 	starving = "Affamé!",
 
 	-- AFK
 	afk_mode = "Mode Absent",
+    unable_afk_spam_prevention = "Veuillez attendre avant d\'être AFK a nouveau.",
 	salary_frozen = "Votre salaire est gelé.",
 	salary_restored = "Bon retour, votre salaire est maintenant restoré.",
 	no_auto_demote = "Vous n\'allez pas vous faire virer automatiquement.",
@@ -470,9 +494,13 @@ local my_language = {
 	buy_x = "Acheter %s",
 
 	-- F4menu
+    ammo = "munition",
+    weapon_ = "arme",
 	no_extra_weapons = "Ce métier n\'a pas d\'arme spéciale.",
 	become_job = "Obtenir ce Métier",
 	create_vote_for_job = "Créer un vote",
+    shipment = "caisse",
+    Shipments = "Caisses",
 	shipments = "Caisses",
 	F4guns = "Armes",
 	F4entities = "Autre",
@@ -530,17 +558,6 @@ local my_language = {
 	Tick the weapons people should be able to get WITHOUT a license!
 	]],
 	license_tab_other_weapons = "Other weapons:",
-
-	zombie_spawn_removed = "Vous avez supprimé le point d\'apparition de zombies.",
-	zombie_spawn = "Apparition de Zombies",
-	zombie_disabled = "Les Zombies sont maintenant activés.",
-	zombie_enabled = "Les Zombies sont maintenant désactivés.",
-	zombie_maxset = "Le montant maximum de Zombies qu\'il est possible de faire apparaître est maintenant défini à %s",
-	zombie_spawn_added = "Vous avez ajouté un point d\'apparition pour les Zombies.",
-	zombie_spawn_not_exist = "Le point d\'apparition %s n\'existe pas.",
-	zombie_leaving = "Les Zombies s'en vont.",
-	zombie_approaching = "ATTENTION: Zombies en approche!",
-	zombie_toggled = "Zombies changé.",
 }
 
 -- The language code is usually (but not always) a two-letter code. The default language is "en".
