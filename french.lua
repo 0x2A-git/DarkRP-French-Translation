@@ -1,25 +1,6 @@
 --[[---------------------------------------------------------------------------
-English (example) language file
+French language file
 ---------------------------------------------------------------------------
-
-This is the english language file. The things on the left side of the equals sign are the things you should leave alone
-The parts between the quotes are the parts you should translate. You can also copy this file and create a new language.
-
-= Warning =
-Sometimes when DarkRP is updated, new phrases are added.
-If you don't translate these phrases to your language, it will use the English sentence.
-To fix this, join your server, open your console and enter darkp_getphrases yourlanguage
-For English the command would be:
-	darkrp_getphrases "en"
-because "en" is the language code for English.
-
-You can copy the missing phrases to this file and translate them.
-
-= Note =
-Make sure the language code is right at the bottom of this file
-
-= Using a language =
-Make sure the convar gmod_language is set to your language code. You can do that in a server CFG file.
 ---------------------------------------------------------------------------]]
 
 local my_language = {
